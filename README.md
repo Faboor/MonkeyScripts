@@ -18,3 +18,7 @@ Improves the user watching experience on [KissAnime.ru](http://kissanime.ru), wh
   - **P** - play previous episode
 
 *Note: currently only supports RapidVideo, but will automatically use it if available*
+
+
+## Good ol' Reddit
+Redirects [reddit.com](https://reddit.com "New Reddit") urls to [old.reddit.com](https://old.reddit.com "Old Reddit"). I personally think, that the new page is not as easy to navigate and uses to many modal windows. Not sure how long will reddit support the old page, but I indend to stick with it as long as possible.
