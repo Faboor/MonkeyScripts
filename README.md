@@ -3,6 +3,7 @@ Collection of Tampermonkey scripts I use or wrote
 
 
 ## KissAnimeCompanion
+Improves the user watching experience on [KissAnime.ru](http://kissanime.ru), which is usually made really unplesant by their use of captchas before watching every episode, trying to open pop-up ads when you click anywhere and interrupting your watching after a few seconds when you use AdBlock.
 ### Features
 - Works with AdBlock enabled
 - Links from the episode list open in new tab
