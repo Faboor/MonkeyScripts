@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         KissAnimeCompanion
 // @namespace    https://github.com/Faboor/MonkeyScripts
-// @version      1.0
+// @version      1.1
 // @description  More pleasurable watching experience on KissAnime with AdBlock on
 // @author       Peter Kovary <peter.kovary@hotmail.com>
 // @match        http://kissanime.ru/Anime/*/Episode-*?id=*&s=default
@@ -99,7 +99,25 @@ select {
         let videoElement = document.getElementsByTagName('video')[0];
         document.onkeypress = function (e) {
             if (e.key === "f") {
-                videoElement.webkitRequestFullscreen();
+                if (videoElement.webkitDisplayingFullscreen) {
+                    videoElement.webkitExitFullscreen();
+                } else {
+                    videoElement.webkitRequestFullscreen();
+                }
+            } else if (e.key === "s") {
+                videoElement.currentTime += 85;
+            } else if (e.key === "a") {
+                videoElement.currentTime -= 10;
+            } else if (e.key === "n") {
+                let btnNext = document.getElementById("btnNext");
+                if (btnNext) {
+                    btnNext.click();
+                }
+            } else if (e.key === "p") {
+                let btnPrev = document.getElementById("btnPrevious");
+                if (btnPrev) {
+                    btnPrev.click();
+                }
             }
         };
         videoElement.setAttribute("style", "margin-top:50px");

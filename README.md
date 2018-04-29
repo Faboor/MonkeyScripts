@@ -9,6 +9,11 @@ Collection of Tampermonkey scripts I use or wrote
 - Automatically brute-force captcha image challenge
 - Open video directly from CDN server, not in the custom player
 - Keep episode selector and previous / next buttons
-- Press **F** for fullscreen
+- Keyboard shortcuts on video page:
+  - **F** - toggle fullscreen
+  - **S** - forward 85 seconds (skip op)
+  - **A** - rewind 10 seconds
+  - **N** - play next episode
+  - **P** - play previous episode
 
 *Note: currently only supports RapidVideo, but will automatically use it if available*
