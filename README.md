@@ -26,3 +26,7 @@ Redirects [reddit.com](https://reddit.com "New Reddit") urls to [old.reddit.com]
 
 ## Redirect www.amazon to smile.amazon
 Does what it says: Redirects amazon pages to smile.amazon, so that a small percentage of the purchases go towards charity.
+
+
+## Bing Redirect
+Redirects searches on Bing to Google. Particularly useful when the search starts from the Windows Start menu where you cannot choose your default search engine. Work great in conjunction with [EdgeDeflector](https://github.com/da2x/EdgeDeflector) to open those Start searches in Chrome instead of Edge ([instructions](https://www.howtogeek.com/226638/make-the-windows-10-start-menu-and-cortana-search-google-instead-of-bing/)).
