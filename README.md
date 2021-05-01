@@ -1,9 +1,9 @@
 # MonkeyScripts
-Collection of Tampermonkey scripts I use or wrote
+Collection of random Tampermonkey scripts made for myself. Feel free to use/improve them.
 
 
 ## KissAnimeCompanion
-Improves the user watching experience on [KissAnime.ru](http://kissanime.ru), which is usually made really unplesant by their use of captchas before watching every episode, trying to open pop-up ads when you click anywhere and interrupting your watching after a few seconds when you use AdBlock.
+Improves the user watching experience on [KissAnime.ru](http://kissanime.ru), which is usually made really unpleasant by their use of captchas before watching every episode, trying to open pop-up ads when you click anywhere and interrupting your watching after a few seconds when you use AdBlock.
 ### Features
 - Works with AdBlock enabled
 - Links from the episode list open in new tab
@@ -21,4 +21,4 @@ Improves the user watching experience on [KissAnime.ru](http://kissanime.ru), wh
 
 
 ## Good ol' Reddit
-Redirects [reddit.com](https://reddit.com "New Reddit") urls to [old.reddit.com](https://old.reddit.com "Old Reddit"). I personally think, that the new page is not as easy to navigate and uses to many modal windows. Not sure how long will reddit support the old page, but I indend to stick with it as long as possible.
+Redirects [reddit.com](https://reddit.com "New Reddit") urls to [old.reddit.com](https://old.reddit.com "Old Reddit"). I personally think, that the new page is not as easy to navigate and uses to many modal windows. Not sure how long will Reddit support the old page, but I intend to stick with it as long as possible.
