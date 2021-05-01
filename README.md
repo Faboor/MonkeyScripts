@@ -30,3 +30,7 @@ Does what it says: Redirects amazon pages to smile.amazon, so that a small perce
 
 ## Bing Redirect
 Redirects searches on Bing to Google. Particularly useful when the search starts from the Windows Start menu where you cannot choose your default search engine. Work great in conjunction with [EdgeDeflector](https://github.com/da2x/EdgeDeflector) to open those Start searches in Chrome instead of Edge ([instructions](https://www.howtogeek.com/226638/make-the-windows-10-start-menu-and-cortana-search-google-instead-of-bing/)).
+
+
+## Search . to go to homepage
+Using Chrome's search engine keyword shortcuts is great. I got used to typing `yt <space> something to search` to search YouTube. But sometimes I want to just go to the YouTube home and automatically type `yt <space>` and it get's me nowhere. This script will check if the search is for just a single `.` character and redirect to the main page. But you have to add a sentinel string to the search url in [chrome://settings/searchEngines](chrome://settings/searchEngines).
