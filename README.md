@@ -22,3 +22,7 @@ Improves the user watching experience on [KissAnime.ru](http://kissanime.ru), wh
 
 ## Good ol' Reddit
 Redirects [reddit.com](https://reddit.com "New Reddit") urls to [old.reddit.com](https://old.reddit.com "Old Reddit"). I personally think, that the new page is not as easy to navigate and uses to many modal windows. Not sure how long will Reddit support the old page, but I intend to stick with it as long as possible.
+
+
+## Redirect www.amazon to smile.amazon
+Does what it says: Redirects amazon pages to smile.amazon, so that a small percentage of the purchases go towards charity.

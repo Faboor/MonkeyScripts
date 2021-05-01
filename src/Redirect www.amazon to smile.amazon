@@ -1,0 +1,17 @@
+// ==UserScript==
+// @name         Redirect www.amazon to smile.amazon
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Change Amazon urls to smile.amazon urls
+// @author       Peter Kovary <peter.kovary@hotmail.com>
+// @match        https://www.amazon.co.uk/*
+// @grant        none
+// @run-at       document-start
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    if (!GM_info.isIncognito) {
+        document.location.href = document.location.href.replace("www", "smile");
+    }
+})();
